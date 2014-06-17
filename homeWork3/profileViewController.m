@@ -7,8 +7,10 @@
 //
 
 #import "profileViewController.h"
+#import "loginViewController.h"
 
 @interface profileViewController ()
+- (IBAction)logoutButton:(id)sender;
 
 @end
 
@@ -35,4 +37,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)logoutButton:(id)sender {
+    UIViewController *vc = [[loginViewController alloc]init];
+    vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    
+    [self presentViewController:vc animated:YES completion:nil];
+}
 @end
