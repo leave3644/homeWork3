@@ -50,6 +50,7 @@
     loadingView.center = self.view.center;
     
     [self.view addSubview:loadingView];
+    
     [self.loadingFeed startAnimating];
     [self performSelector:@selector(displayFeed) withObject:nil afterDelay:2];
     

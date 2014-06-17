@@ -53,6 +53,7 @@
     loadingView.center = self.view.center;
     
     
+    
     [self.view addSubview:loadingView];
 }
 
@@ -77,6 +78,7 @@
     if([self.nameInput.text isEqualToString: @""])
     {
         self.loginButton.enabled = NO;
+       
     }
     else{
         self.loginButton.enabled = YES;
