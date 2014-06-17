@@ -23,6 +23,8 @@
 		6CB1B515194BB956006E3C2E /* loginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1B513194BB956006E3C2E /* loginViewController.xib */; };
 		6CB1B519194FE456006E3C2E /* feedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1B517194FE456006E3C2E /* feedViewController.m */; };
 		6CB1B51A194FE456006E3C2E /* feedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1B518194FE456006E3C2E /* feedViewController.xib */; };
+		6CB1B51E195028BD006E3C2E /* moreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1B51C195028BD006E3C2E /* moreViewController.m */; };
+		6CB1B51F195028BD006E3C2E /* moreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1B51D195028BD006E3C2E /* moreViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		6CB1B516194FE456006E3C2E /* feedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = feedViewController.h; sourceTree = "<group>"; };
 		6CB1B517194FE456006E3C2E /* feedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = feedViewController.m; sourceTree = "<group>"; };
 		6CB1B518194FE456006E3C2E /* feedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = feedViewController.xib; sourceTree = "<group>"; };
+		6CB1B51B195028BD006E3C2E /* moreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moreViewController.h; sourceTree = "<group>"; };
+		6CB1B51C195028BD006E3C2E /* moreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moreViewController.m; sourceTree = "<group>"; };
+		6CB1B51D195028BD006E3C2E /* moreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = moreViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +169,9 @@
 				6CB1B516194FE456006E3C2E /* feedViewController.h */,
 				6CB1B517194FE456006E3C2E /* feedViewController.m */,
 				6CB1B518194FE456006E3C2E /* feedViewController.xib */,
+				6CB1B51B195028BD006E3C2E /* moreViewController.h */,
+				6CB1B51C195028BD006E3C2E /* moreViewController.m */,
+				6CB1B51D195028BD006E3C2E /* moreViewController.xib */,
 			);
 			name = viewControllers;
 			sourceTree = "<group>";
@@ -247,6 +255,7 @@
 				6CB1B4E7194BB714006E3C2E /* InfoPlist.strings in Resources */,
 				6CB1B51A194FE456006E3C2E /* feedViewController.xib in Resources */,
 				6CB1B4EF194BB714006E3C2E /* Images.xcassets in Resources */,
+				6CB1B51F195028BD006E3C2E /* moreViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +278,7 @@
 				6CB1B514194BB956006E3C2E /* loginViewController.m in Sources */,
 				6CB1B519194FE456006E3C2E /* feedViewController.m in Sources */,
 				6CB1B4E9194BB714006E3C2E /* main.m in Sources */,
+				6CB1B51E195028BD006E3C2E /* moreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

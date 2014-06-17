@@ -7,7 +7,7 @@
 //
 
 #import "feedViewController.h"
-
+#import "moreViewController.h"
 
 @interface feedViewController ()
 @property (weak, nonatomic) IBOutlet UIImageView *loadingFeed;
@@ -15,6 +15,8 @@
 @property (nonatomic,assign) BOOL loading;
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet UIImageView *feedImageView;
+- (IBAction)statusButton:(id)sender;
+- (IBAction)moreButton:(id)sender;
 
 - (void) displayFeed;
 
@@ -32,6 +34,17 @@
 //        
     }
     return self;
+}
+
+- (IBAction)statusButton:(id)sender {
+    
+}
+
+- (IBAction)moreButton:(id)sender {
+    UIViewController *vc = [[moreViewController alloc]init];
+    vc.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void) displayFeed {
