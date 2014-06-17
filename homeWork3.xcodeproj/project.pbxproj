@@ -25,6 +25,8 @@
 		6CB1B51A194FE456006E3C2E /* feedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1B518194FE456006E3C2E /* feedViewController.xib */; };
 		6CB1B51E195028BD006E3C2E /* moreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1B51C195028BD006E3C2E /* moreViewController.m */; };
 		6CB1B51F195028BD006E3C2E /* moreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1B51D195028BD006E3C2E /* moreViewController.xib */; };
+		6CB1B52319502E17006E3C2E /* profileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CB1B52119502E17006E3C2E /* profileViewController.m */; };
+		6CB1B52419502E17006E3C2E /* profileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6CB1B52219502E17006E3C2E /* profileViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,9 @@
 		6CB1B51B195028BD006E3C2E /* moreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = moreViewController.h; sourceTree = "<group>"; };
 		6CB1B51C195028BD006E3C2E /* moreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = moreViewController.m; sourceTree = "<group>"; };
 		6CB1B51D195028BD006E3C2E /* moreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = moreViewController.xib; sourceTree = "<group>"; };
+		6CB1B52019502E17006E3C2E /* profileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = profileViewController.h; sourceTree = "<group>"; };
+		6CB1B52119502E17006E3C2E /* profileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = profileViewController.m; sourceTree = "<group>"; };
+		6CB1B52219502E17006E3C2E /* profileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = profileViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +177,9 @@
 				6CB1B51B195028BD006E3C2E /* moreViewController.h */,
 				6CB1B51C195028BD006E3C2E /* moreViewController.m */,
 				6CB1B51D195028BD006E3C2E /* moreViewController.xib */,
+				6CB1B52019502E17006E3C2E /* profileViewController.h */,
+				6CB1B52119502E17006E3C2E /* profileViewController.m */,
+				6CB1B52219502E17006E3C2E /* profileViewController.xib */,
 			);
 			name = viewControllers;
 			sourceTree = "<group>";
@@ -253,6 +261,7 @@
 			files = (
 				6CB1B515194BB956006E3C2E /* loginViewController.xib in Resources */,
 				6CB1B4E7194BB714006E3C2E /* InfoPlist.strings in Resources */,
+				6CB1B52419502E17006E3C2E /* profileViewController.xib in Resources */,
 				6CB1B51A194FE456006E3C2E /* feedViewController.xib in Resources */,
 				6CB1B4EF194BB714006E3C2E /* Images.xcassets in Resources */,
 				6CB1B51F195028BD006E3C2E /* moreViewController.xib in Resources */,
@@ -276,6 +285,7 @@
 			files = (
 				6CB1B4ED194BB714006E3C2E /* AppDelegate.m in Sources */,
 				6CB1B514194BB956006E3C2E /* loginViewController.m in Sources */,
+				6CB1B52319502E17006E3C2E /* profileViewController.m in Sources */,
 				6CB1B519194FE456006E3C2E /* feedViewController.m in Sources */,
 				6CB1B4E9194BB714006E3C2E /* main.m in Sources */,
 				6CB1B51E195028BD006E3C2E /* moreViewController.m in Sources */,

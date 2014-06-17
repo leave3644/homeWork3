@@ -34,7 +34,7 @@
                     <state key="normal">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
-                    <state key="highlighted" image="02AB78D0-053B-4E29-85D6-B72E25590156"/>
+                    <state key="highlighted" image="798F7CEF-FB68-4E1B-9984-818F3E23BFCC"/>
                     <connections>
                         <action selector="statusButton:" destination="-1" eventType="touchUpInside" id="AMF-6M-hcV"/>
                     </connections>
@@ -56,9 +56,9 @@
                     <color key="color" red="0.40000000000000002" green="0.20000000000000001" blue="0.40000000000000002" alpha="1" colorSpace="calibratedRGB"/>
                 </activityIndicatorView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="H5e-cU-odh">
-                    <rect key="frame" x="259" y="518" width="61" height="44"/>
+                    <rect key="frame" x="255" y="518" width="65" height="44"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" image="Image-1">
+                    <state key="normal" image="moreButton">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
                     <state key="highlighted" image="Image-1">
@@ -75,7 +75,7 @@
         </view>
     </objects>
     <resources>
-        <image name="02AB78D0-053B-4E29-85D6-B72E25590156" width="320" height="45">
+        <image name="798F7CEF-FB68-4E1B-9984-818F3E23BFCC" width="320" height="45">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPj9YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQsLzI4O1UkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -1088,6 +1088,7 @@ AAAAAAAAAAAAAOswA
         </image>
         <image name="Image-1" width="27" height="27"/>
         <image name="feed" width="320" height="415"/>
+        <image name="moreButton" width="27" height="27"/>
         <image name="navBar" width="320" height="64"/>
         <image name="statusBar" width="320" height="45"/>
         <image name="tapBar" width="320" height="44"/>
