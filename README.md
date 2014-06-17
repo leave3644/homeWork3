@@ -5,7 +5,7 @@ homeWork3
 
   How many hours did it take to complete? 
     	
-    	About 11 hours
+    	About 15 hours
     	
   Which required and optional stories have you completed?
    
@@ -25,3 +25,5 @@ homeWork3
         
           Immediately after launch, display the loading indicator.
           After 2 seconds, show the feed, which is a long image in a scrollable view.
+          Upon tapping Log Out, return to the login screen. (optional)
+          Tapping a profile picture should push a profile page (optional)
